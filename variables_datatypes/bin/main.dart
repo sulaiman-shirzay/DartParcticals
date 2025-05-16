@@ -1,8 +1,10 @@
-// import "1_builtins.dart";
-// import "2_collections.dart";
-import "../../3_functions.dart";
+// import "builtins_1.dart";
+// import "collections_2.dart";
+import 'late_variables_3.dart';
 
-void main() {
+void main(List<String> args) {
+  // ! the reason we use List<String> args is that in the console applications its recommended to use this syntax
+
   // // ? VAR
   // var muslim = "Ahmad";
   // print(muslim);
@@ -14,6 +16,5 @@ void main() {
   // print(notChangable);
   // builtins();
   // list();
-  var functionsVar = samplefunc("myname");
-  print(functionsVar);
+  lateFunction();
 }
